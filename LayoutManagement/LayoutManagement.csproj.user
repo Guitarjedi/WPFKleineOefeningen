@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CanvasZIndex.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Grid.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GridColRowSpan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GridColRowSpanAdvanced.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GridContactForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GridContactFormTake2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GridUnits.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StackPanel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TabularGrid.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Canvas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CanvasZIndex.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Grid.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GridColRowSpan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GridColRowSpanAdvanced.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GridContactForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GridContactFormTake2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GridUnits.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StackPanel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TabularGrid.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

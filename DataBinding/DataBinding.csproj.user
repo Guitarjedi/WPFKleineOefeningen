@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ChangeNotificationSample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ComboBoxDataBinding.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ConverterSample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DataContextSample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StringFormatCultureSample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StringFormatSample.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ChangeNotificationSample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ComboBoxDataBinding.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ConverterSample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DataContextSample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HelloBoundWorldSample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListBoxDataBindingSample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StringFormatCultureSample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StringFormatSample.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
